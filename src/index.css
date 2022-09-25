@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer{
+  border: 2px solid red;
+  height: 100vh;
+  width: 100vw;
+
+}
+.subContainer{
+  margin: auto;
+  margin-top: 59px;
+  border: 2px solid green;
+  height: 80%;
+  width: 80%;
+  background-color: gray;
+  
+
+}
+.main{
+  background-color: #f7f4f4;
+  height: 80%;
+  width: 80%;
+  margin: 60px;
+  margin-left: 95px;
+  margin-bottom: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+}
+.mainContantBox{
+  display: flex;
+  height: 100%;
+}
+.leftContentBox{
+  border-top-left-radius:15px ;
+  border-bottom-left-radius:15px ;
+  /* border: 2px solid rgb(223, 12, 142); */
+  height: 100%;
+  width: 80%;
+}
+.RightContentBox{
+/* border: 2px solid green; */
+height: 100%;
+width: 30%;
+border-top-right-radius:15px ;
+border-bottom-right-radius:15px ;
+}
+.leftContentHeadText{
+  color:#0eca98;
+  margin-top: 14px;
+  margin-left: 18px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.mainHeading{
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#0eca98;
+  text-align: center;
+
+}
+hr{
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+  width: 15%;
+  height: 3px;
+  background-color: white;
+
+}
+.leftContentBox hr{
+width: 5.4%;
+background-color: #0eca98;
+height: 5px;
+}
+.socialMediaLink{
+  display: flex;
+  flex-direction: column;
+  
+}
+.socialMediaLink img{
+  padding: 7px;
+  height: 40px;
+  width: 40px;
+  margin: 15px;
+  margin-top: 25px;
+  margin-left: 40px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgb(212, 206, 206);
+  
+}
+.link{
+  text-align: center;
+}
+.text{
+  font-size: 15px;
+  margin-top: 10px;
+  opacity: .4;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+.email{
+  margin-top: 10px;
+  height: 1.6rem;
+  width: 15rem;
+  font-size: 13px;
+  opacity: .4;
+  border: none;
+  outline: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email:hover ,.password:hover{
+  border: 2px solid #0eca98;
+}
+.email:focus{
+  border: 2px solid #0eca98;
+}
+.password{
+  border: none;
+  outline: none;
+  height: 1.6rem;
+  opacity: .4;
+  font-size: 13px;
+  width: 15rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.password:focus{
+  border: 2px solid #0eca98;
+}
+.input{
+text-align: center;
+}
+.input1{
+  text-align: center;
+  margin-top: 15px;
+
+}
+.recover{
+  /* display: flex; */
+  text-align: center;
+
+}
+.btn{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.check{
+  margin-right: 40px;
+}
+.check span{
+  font-size: 14px;
+  margin-top: -7px;
+  opacity: .7;
+}
+
+.btn button{
+  text-align: center;
+  border: none;
+  background:none;
+  cursor: pointer;
+  
+}
+.SignInbtn{
+  text-align: center;
+}
+.SignInbtn button{
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  color: #e1e1e1;
+  background-color:#0eca98;
+}
+.footer{
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -90px;
+}
+.footer span{
+  margin-right: 20px;
+  opacity: .4;
+}
+.RightContentBox{
+  background-color:#0eca98;
+}
+.SignUpBox{
+  text-align: center;
+  margin-top: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MassegeBox{
+ font-size: 27px;
+ color:#e1e1e1;
+ 
+}
+.infoShow{
+  margin-top: 10px;
+  opacity: .7;
+  color: #e1e1e1;
+
+}
+.signUpbtn{
+  text-align: center;
+ 
+}
+.signUpbtn button{
+  /* text-align: center; */
+   margin-top: 24px;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 15px;
+  text-align: center;
+ border: 2px solid #e1e1e1;
+   background:none;
+  cursor: pointer;
+  color: #e1e1e1;
+}
+ 
